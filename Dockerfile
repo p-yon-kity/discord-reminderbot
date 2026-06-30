@@ -1,6 +1,6 @@
 FROM python:3.8-buster as builder
 
-ARG POETRY_VERSION=1.1.13
+ARG POETRY_VERSION=1.8.4
 ARG POETRY_HOME=/opt/poetry
 
 # poetry導入
